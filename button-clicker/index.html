@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button Clicker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="div-topnav">
+        <h1 id="site-title">Dojonary</h1>
+        <input type="text" placeholder="Search" id="searchbar">
+        <button onclick="loginout()" id="button-login">Login</button>
+    </div>
+    <div class="div-main">
+        <div class="div-feed">
+            <div class="div-maincard">
+                <div class="div-cardheader">
+                    <div class="div-searchresult">
+                        <h1>ninja</h1>
+                        <p><em>noun</em></p>
+                        <p>Plural: <em>ninjas</em></p>
+                    </div>
+                    <div class="div-resultlikes">
+                        <button onclick="alert('Ninja was liked')" class="button-like">13 likes</button>
+                    </div>
+                </div>
+                <div class="div-resultdef">
+                    <p>A practioner skilled in the <a href="https://example.com/">Japanese</a> art of <a href="https://example.com/">ninjutsu</a></p>
+                </div>
+            </div>
+            <div class="div-maincard">
+                <div class="div-cardheader">
+                    <div class="div-searchresult">
+                        <h1>ninja</h1>
+                        <p><em>noun</em></p>
+                        <p>Plural: <em>ninjas</em></p>
+                    </div>
+                    <div class="div-resultlikes">                            
+                        <button  onclick="alert('Ninja was liked')" class="button-like">37 likes</button>                    
+                    </div>
+                </div>
+                <div class="div-resultdef">
+                    <p>A <a href="https://example.com/">programmer</a> who breaks down problems with <a href="https://example.com/">zen</a>-like focus</p>
+                </div>
+            </div>
+        </div>
+        <div class="div-sidenav">
+            <div class="div-sidecard">
+                <div class="div-sidecard-word">
+                    <p>Dojonary is defined by <strong>YOU</strong></p>
+                </div>
+                <div class="div-sidecard-button">
+                    <button onclick="remove()" id="add-definition">Add Definition</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.div-topnav {
+    background-color: gray;
+    width: 800px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+
+.div-main {
+    margin: auto;
+    margin-top: 25px;
+    width: 800px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+.div-feed {
+    width: 600px;
+}
+
+.div-sidenav {
+    width: 175px;
+}
+
+.div-maincard {
+    border: 2px solid black;
+    margin-bottom: 25px;
+    height: 150px;
+    display: flex;
+}
+
+.div-cardheader {
+    height: 100%;
+    width: 25%;
+}
+
+.div-searchresult {
+    height: 70%;
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-resultlikes {
+    height: 25px;
+    margin: 5px 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.button-like {
+    height: inherit;
+    border: 1px solid black;
+    box-shadow: 2px 3px;
+    background-color: gold;
+}
+
+.div-resultdef {
+    width: 75%;
+    margin: 25px;
+    display: flex;
+    align-items: center;
+}
+
+.div-sidecard {
+    height: 110px;
+    border: 2px solid black;
+}
+
+.div-sidecard-word {
+    margin: 10px;
+    font-size: large;
+}
+
+#site-title {
+    margin-left: 20px;
+}
+
+#searchbar {
+    width: 200px;
+    height: 20px;
+}
+
+#button-login {
+    margin-right: 20px;
+    width: 50px;
+    height: 25px;
+    background-color: blue;
+    color: white;
+}
+
+#add-definition {
+    background-color: lightgreen;
+    width: 150px;
+    height: 25px;
+    margin: 10px;
+    border: 1px solid black;
+    box-shadow: 3px 3px;
+}
