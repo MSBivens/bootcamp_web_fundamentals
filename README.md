@@ -8,3 +8,7 @@ Button Clicker, Objectives:
 Video Preview, Objectives:
   Practice onmouseover and onmouseout
   Practice working with existing code
+
+Liking Likes, Objectives: 
+  Practice onclick
+  Use querySelector to select elements to change
