@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <div class="div-header">
+        <div class="div-sitetitle">
+            <h1>Network</h1>
+        </div>
+    </div>
+
+    <!-- Main -->
+    <div class="div-main">
+
+        <!-- Main Header -->
+        <div class="div-mainheader">
+            <h1>Your Feed</h1>
+        </div>
+
+        <!-- Container for Left and Ride Side -->
+        <div class="main-lr-container">
+            <!-- Main Left Side -->
+            <div class="div-mainleft">
+                <div class="div-mainleft-card">
+                    <div class="div-mainleft-card-photo">
+                        <img src="assets/user-circle.png" class="img-card-photo" alt="image of the user">
+                    </div>
+                    <div class="div-mainleft-card-prompt">
+                        <a href="https://example.com/">Add an avatar</a>
+                    </div>
+                    <div class="div-mainleft-card-name">
+                        <p>James Doe</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Main Right Side -->
+            <div class="div-mainright">
+                <div class="div-mainright-card">
+                    <div class="div-mainright-card-header">
+                        <div class="div-mainright-card-header-name">
+                            <p>Neil M</p>
+                        </div>
+                        <div class="div-mainright-card-header-likes">
+                            <p id="likesneil">9 like(s)</p>
+                        </div>
+                        <div class="div-mainright-card-header-likebtn">
+                            <button class="btn-like" onclick="like(0)">Like</button>
+                        </div>
+                    </div>
+                    <div class="div-mainright-card-post">
+                        <p>I just set up this new discord bot, let me knw what you all think. <a href="https://example.com/">link</a></p>
+                    </div>
+                </div>
+                <div class="div-mainright-card">
+                    <div class="div-mainright-card-header">
+                        <div class="div-mainright-card-header-name">
+                            <P>Nichole K</P>
+                        </div>
+                        <div class="div-mainright-card-header-likes">
+                            <p id="likesnichole">12 like(s)</p>
+                        </div>
+                        <div class="div-mainright-card-header-likebtn">
+                            <button class="btn-like" onclick="like(1)">Like</button>
+                        </div>
+                    </div>
+                    <div class="div-mainright-card-post">
+                        <p>Just finished my <a href="http://example.com">next comic</a>, check it out.</p>
+                    </div>
+                </div>
+                <div class="div-mainright-card">
+                    <div class="div-mainright-card-header">
+                        <div class="div-mainright-card-header-name">
+                            <p>Jim R</p>
+                        </div>
+                        <div class="div-mainright-card-header-likes">
+                            <p id="likesjim">9 like(s)</p>
+                        </div>
+                        <div class="div-mainright-card-header-likebtn">
+                            <button class="btn-like"  onclick="like(2)">Like</button>
+                        </div>
+                    </div>
+                    <div class="div-mainright-card-post">
+                        <p>I can't stop listening to the <a href="http://example.com">new album</a>. Who else is liking it?</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
