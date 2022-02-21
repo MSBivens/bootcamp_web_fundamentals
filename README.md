@@ -12,3 +12,7 @@ Video Preview, Objectives:
 Liking Likes, Objectives: 
   Practice onclick
   Use querySelector to select elements to change
+
+Making Connections, Objectives:
+  Add JavaScript to existing code
+  Use JavaScript to remove elements
