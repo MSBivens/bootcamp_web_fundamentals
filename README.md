@@ -16,3 +16,6 @@ Liking Likes, Objectives:
 Making Connections, Objectives:
   Add JavaScript to existing code
   Use JavaScript to remove elements
+
+Dojo Weather, Objectives:
+  Practice HTML, CSS, JS
