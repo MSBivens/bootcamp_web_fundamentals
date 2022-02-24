@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dojo Weather</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <div class="div-header">
+        <div class="div-header-content">
+            <p id="p-site-title">DojoWeather</p>
+            <ul id="list-city">
+                <li onclick="cityalert()"><a href="#">Burbank</a></li>
+                <li onclick="cityalert()"><a href="#">Chicago</a></li>
+                <li onclick="cityalert()"><a href="#">Dallas</a></li>
+            </ul>
+        </div>
+    </div>
+    <!-- Main Content -->
+    <div class="div-main">
+        <div class="div-main-header">
+            <h1>San Jose</h1>
+            <p>show temperature in <select name="degrees" onchange="convert(this)">
+                    <option>°C</option>
+                    <option>°F</option>
+                </select>
+            </p>
+        </div>
+        <div class="div-main-weather">
+            <div class="div-main-weather-card">
+                <h2>Today</h2>
+                <img src="assets/some_rain.png" alt="some rain" class="img-weather">
+                <p>some rain</p>
+                <p class="p-temp">
+                    <span class="p-temp-high" id="temp1">24</span>
+                    <span class="p-temp-low" id="temp2">18</span>
+                </p>
+            </div>
+            <div class="div-main-weather-card">
+                <h2>Tomorrow</h2>
+                <img src="assets/some_sun.png" alt="some sun" class="img-weather">
+                <p>some sun</p>
+                <p class="p-temp">
+                    <span class="p-temp-high" id="temp3">27</span>
+                    <span class="p-temp-low" id="temp4">19</span>
+                </p>
+            </div>
+            <div class="div-main-weather-card">
+                <h2>Friday</h2>
+                <img src="assets/some_clouds.png" alt="some clouds" class="img-weather">
+                <p>some clouuds</p>
+                <p class="p-temp">
+                    <span class="p-temp-high" id="temp5">21</span>
+                    <span class="p-temp-low" id="temp6">16</span>
+                </p>
+            </div>
+            <div class="div-main-weather-card">
+                <h2>Saturday</h2>
+                <img src="assets/some_sun.png" alt="some sun" class="img-weather">
+                <p>some sun</p>
+                <p class="p-temp">
+                    <span class="p-temp-high" id="temp7">26</span>
+                    <span class="p-temp-low" id="temp8">21</span>
+                </p>
+            </div>
+        </div>
+    </div>
+    <!-- Cookie Element -->
+    <div class="div-cookie-container">
+        <div class="div-cookie">
+            <img src="assets/cookie.png" alt="" id="img-cookie">
+            <p class="p-cookie">
+                <span id="p-cookie-header">Stop! Cookie time</span>
+                <span>We use cookies (sadly not the eddible ones) to personalize content and ads to provide social media features and to analyse our traffic. <a href="#">Read more...</a></span>
+            </p>
+            <!-- <p class="p-cookie-header">Stop! Cookie time</p> -->
+            <!-- <p>We use cookies (sadly not the eddible ones) to personalize content and ads to provide social media features and to analyse our traffic. <a href="#">Read more...</a></p> -->
+            <button id="btn-cookie" onclick="accept()">I Accept</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

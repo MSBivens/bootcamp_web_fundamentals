@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+.div-header {
+    background-color: skyblue;
+    height: 75px;
+}
+
+.div-header-content {
+    color: white;
+    height: inherit;
+    display: flex;
+    margin: auto;
+    width: 1000px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#p-site-title {
+    font-size: xx-large;
+    width: 50%;
+}
+
+#list-city {
+    list-style-type: none;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    font-size: x-large;
+}
+
+.div-header-content a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Main Content */
+.div-main {
+    width: 1000px;
+    margin: auto;
+    margin-bottom: 5px;
+}
+
+.div-main-header {
+    height: 75px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.div-main-weather {
+    border-top: 5px solid black;
+    padding-top: 20px;
+    display: flex;
+}
+
+.div-main-weather-card {
+    flex: 1;
+    text-align: center;
+    background-color: lightgray;
+    margin-right: 30px;
+    padding-top: 10px;
+}
+
+.div-main-weather-card:last-child {
+    margin-right: 0px;
+}
+
+.img-weather {
+    background-color: white;
+    border-radius: 50%;
+    width: 150px;
+    margin: 10px 0px;
+}
+
+.p-temp {
+    margin-top: 10px;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.p-temp-high {
+    font-size: larger;
+    color: red;
+}
+
+.p-temp-low {
+    font-size: larger;
+    color: blue;
+}
+
+.p-temp-high::after, .p-temp-low::after {
+    content: "°"
+}
+
+/* Cookie Element */
+
+.dic-cookie-container {
+    position: fixed;
+    width: 100%;
+}
+
+.div-cookie {
+    /* position: fixed; */
+    border: 3px solid black;
+    width: 1000px;
+    height: 100px;
+    padding: 5px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.p-cookie {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+}
+
+#img-cookie {
+    height: 100px;
+}
+
+#btn-cookie {
+    background-color: lightblue;
+    width: 100px;
+    height: 25px;
+    box-shadow: 3px 3px ;
+}
+
+#p-cookie-header {
+    font-size: larger;
+    font-weight: bold;
+}
