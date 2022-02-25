@@ -19,3 +19,6 @@ Making Connections, Objectives:
 
 Dojo Weather, Objectives:
   Practice HTML, CSS, JS
+
+Fizzbuzz, Objectives:
+  Practice loops and conditionals
