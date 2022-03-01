@@ -22,3 +22,6 @@ Dojo Weather, Objectives:
 
 Fizzbuzz, Objectives:
   Practice loops and conditionals
+
+Loop Challenges, Objectives:
+  Practive loops and conditionals
