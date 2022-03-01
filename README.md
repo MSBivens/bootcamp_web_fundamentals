@@ -24,4 +24,7 @@ Fizzbuzz, Objectives:
   Practice loops and conditionals
 
 Loop Challenges, Objectives:
-  Practive loops and conditionals
+  Practice loops and conditionals
+
+Array Challenges, Objectives:
+  Practice loops and conditionals
