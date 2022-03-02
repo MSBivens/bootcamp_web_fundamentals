@@ -28,3 +28,7 @@ Loop Challenges, Objectives:
 
 Array Challenges, Objectives:
   Practice loops and conditionals
+
+Dojo Pizzeria, Objectives:
+  Practive JS objects
+  Practice Math.random()
