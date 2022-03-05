@@ -32,3 +32,6 @@ Array Challenges, Objectives:
 Dojo Pizzeria, Objectives:
   Practive JS objects
   Practice Math.random()
+  
+ Bootstrap Trial, Objectives:
+  First experience with Bootstrap
