@@ -1,5 +1,5 @@
-# Bootcamp
-A collection of code developed for the Coding Dojo Bootcamp
+# Bootcamp - Web Fundamentals
+A collection of code developed for the Coding Dojo Bootcamp, Web Fundamentals Stack
 
 Button Clicker, Objectives:
   Practice the onclick event
