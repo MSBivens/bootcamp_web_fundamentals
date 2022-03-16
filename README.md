@@ -1,6 +1,8 @@
 # Bootcamp - Web Fundamentals
 A collection of code developed for the Coding Dojo Bootcamp, Web Fundamentals Stack
 
+I have completed this stack and moved on to the Python course, the repo for these assignments are here https://github.com/MSBivens/bootcamp_python 
+
 Button Clicker, Objectives:
   Practice the onclick event
   Combine previosusly learned HTML, CSS, and JS
